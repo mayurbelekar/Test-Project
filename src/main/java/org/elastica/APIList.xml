@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<apilist>
+    <api name="deployment" value="admin/deployment" ></api>
+    <api name="login" value="user/loginapi"></api>
+    <api name="dataExposurePolicy" value="controls/addpolicy"></api>
+    <api name="policyList" value="controls/list"></api>
+    <api name="togglePolicy" value="controls/update"></api>
+    <api name="deletePolicy" value="controls/archive"></api>
+</apilist>

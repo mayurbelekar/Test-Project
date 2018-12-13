@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test Jersey">
+	
+	<parameter name="userName" value="protectauto@protectbeatle.com"></parameter>
+	<parameter name="password" value="Elastica!1234"></parameter>
+	<parameter name="environment" value="prod"></parameter>
+	<parameter name="tenantToken" value="nIzqjM7QUjS4OcWe2Oti74jwfpY5A2Geg+2ugXIPGGk="/>
+
+
+	<test name="Policy Tests" >
+		<classes>
+			<class name="org.elastica.tests.PolicyTests"></class>
+		</classes>
+	</test>
+	
+</suite>
